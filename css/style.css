@@ -225,6 +225,7 @@ td { vertical-align: top; }
 	background: #b7d84b;
 }
 
+/* relative boxes */
 #box_1a { 
 position: relative;
 width: 200px;
@@ -245,6 +246,41 @@ position: relative;
 width: 200px;
 height: 200px;
 background: #b7d84b;
+}
+
+/*absolute boxes */
+#box_1b {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_2b {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_3b {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+#box_4b {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
 }
 
 /* ==|== media queries ======================================================
